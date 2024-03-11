@@ -33,7 +33,7 @@ jobs:
         run: "npm install" # 📝 Update the install command(s) if necessary
 
       - name: Build step
-        run: "npm run build" # 📝 Update the build command(s) if necessary
+        run: "npm run dev" # 📝 Update the build command(s) if necessary
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
